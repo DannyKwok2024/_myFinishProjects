@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fraction</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="cl-simple-fraction">
+            <h2>Fraction Simplifier</h2>
+            <br />
+
+            <input type="text" id="numeratorTxt" tabindex="0" />
+            <input
+                type="label"
+                id="numeratorSimplify"
+                for="denominatorTxt"
+                readonly
+            />
+            <p>_________&nbsp;&emsp;=&emsp;&nbsp;&nbsp;_________</p>
+            <br />
+            <input type="text" id="denominatorTxt" tabindex="1" />
+            <input type="label" id="denominatorSimplify" readonly /><br />
+            <button type="button" id="btnCalculate">Calculate</button>
+            <button type="button" id="btnReset">Reset</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

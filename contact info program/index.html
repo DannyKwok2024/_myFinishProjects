@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Infomation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <div class="container-main">
+    <div class="contact-info" id="divContactInfo">
+      <h2>Contact Information <img src="info.jpg" /></h2>
+
+      <div class="container-fullname">
+        <input
+          class="input-contacts"
+          type="text"
+          id="txtFirstName"
+          placeholder="Firstname"
+        />
+        <input
+          class="input-contacts"
+          type="text"
+          id="txtLastName"
+          placeholder="Lastname"
+        />
+      </div>
+
+      <div class="container-phone-email" id="div-contact-info">
+        <input
+          class="input-contacts"
+          type="tel"
+          id="txtPhone"
+          placeholder="Phone number"
+          minlength="10"
+          maxlength="10"
+          size="12"
+          onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+        />
+        <!-- take in only number -->
+        <input
+          class="input-contacts"
+          type="email"
+          id="txtEmail"
+          placeholder="Email"
+          size="30"
+        />
+      </div>
+
+      <div class="container-add-clear">
+        <button id="btnAdd">Add</button>
+        <button id="btnClear">Clear</button>
+      </div>
+
+      <div class="container-contacts">
+        <table id="tableContacts">
+          <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Phone number</th>
+            <th>e-mail</th>
+          </tr>
+          <!---Dynamict table rows and table datas will go here-->
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="contactinfo.js"></script>
+  <body></body>
+</html>

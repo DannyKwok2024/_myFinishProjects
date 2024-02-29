@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    src: url('../font/Poppins-Regular.ttf');
+    font-family: 'Popins-regular', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 40px;
+}
+
+/*------------ div Simple Fraction ------------ */
+div {
+    background: linear-gradient(100deg, hsl(0, 0%, 93%), hsl(0, 0%, 65%));
+    height: 270px;
+    width: 355px;
+    padding: 30px 70px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: hsl(0, 0%, 39%);
+}
+input {
+    background-color: hsl(298, 100%, 95%);
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.5rem;
+    align-content: center;
+}
+
+input[type='label'] {
+    background-color: hsl(0, 0%, 84%);
+    margin-left: 50px;
+}
+
+button {
+    color: white;
+    background-color: hsl(0, 0%, 39%);
+    width: 80px;
+    height: 35px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 49%);
+}
+
+#btnReset {
+    margin-left: 50px;
+}

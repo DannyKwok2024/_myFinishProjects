@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  src: url('../fonts/Poppins-Regular.ttf');
+  font-family: 'Popins-regular', Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/*------------ div MAIN ------------ */
+.container-main {
+  background: linear-gradient(110deg, hsl(350, 43%, 87%), hsl(300, 85%, 68%));
+  min-height: 100vh;
+  min-width: 650px;
+  padding: 20px;
+}
+
+/*------------ div CONTACT INFO ------------ */
+.contact-info {
+  background: linear-gradient(100deg, white, hsl(220, 9%, 94%));
+  width: 100%;
+  max-width: 850px;
+  background-color: white;
+  margin: 100px auto 20px;
+  padding: 40px 58px 70px;
+  border-radius: 10px;
+}
+
+/*------------ h2 HEADER ------------ */
+.contact-info h2 {
+  color: black;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.contact-info h2 img {
+  width: 40px;
+  margin-left: 10px;
+}
+
+/*------------ div FULLNAME ------------ */
+.container-fullname {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: hsl(220, 9%, 94%);
+  border-radius: 20px;
+}
+
+/*------------ all INPUT TAGS and INPUT IDs ------------ */
+input {
+  background-color: hsl(220, 9%, 94%);
+  flex: 1;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding: 16px 20px;
+}
+
+#txtFirstName {
+  border-top-left-radius: 10px;
+}
+
+#txtLastName {
+  border-top-right-radius: 10px;
+}
+
+#txtPhone {
+  width: 80%;
+  border-bottom-left-radius: 10px;
+}
+
+#txtEmail {
+  width: 20%;
+  border-bottom-right-radius: 10px;
+}
+
+/*------------ div PHONE-EMAIL ------------ */
+.container-phone-email {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: hsl(220, 9%, 94%);
+  border-radius: 20px;
+}
+
+/*------------ div ADD AND CLEAR BUTTONS ------------ */
+.container-add-clear {
+  display: flex;
+  justify-content: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*------------ ADD and CLEAR BUTTON tags ------------ */
+button {
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  background-color: hsl(300, 85%, 88%);
+  border-radius: 18px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: hsl(300, 85%, 78%);
+}
+
+button:active {
+  background-color: hsl(300, 85%, 88%);
+}
+
+/*------------ div CONTACTS ------------ */
+.container-contacts {
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+/*------------ th table headers ------------ */
+th {
+  font-weight: normal; /* by default font set to bold */
+  font-size: 14px;
+  padding-bottom: 14px;
+}
+
+/*------------ table contacts ------------ */
+#tableContacts {
+  background-color: hsl(278, 80%, 96%);
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+}
+
+/*------------ edit span ------------ */
+#tableContacts tr #spanE {
+  float: right;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 2px;
+  font-size: 20px;
+  background-color: hsl(300, 85%, 88%);
+  text-align: center;
+  color: black;
+  border-radius: 60px;
+}
+
+#tableContacts tr #spanE:hover {
+  cursor: pointer;
+  background: hsl(300, 85%, 95%);
+}
+
+/*------------ delete span ------------ */
+#tableContacts tr #spanX {
+  float: right;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-top: -10px;
+  padding-bottom: -10px;
+  font-size: 20px;
+  background-color: hsl(300, 85%, 88%);
+  line-height: 30px;
+  text-align: center;
+  color: black;
+  border-radius: 60px;
+}
+
+#tableContacts tr #spanX:hover {
+  cursor: pointer;
+  background: hsl(300, 85%, 95%);
+}
+
+#idContacts {
+  font-size: 14px;
+}
